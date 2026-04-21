@@ -1,12 +1,17 @@
-import './Header.jsx'
-import './data.jsx'
-import './JobBoard.jsx'
-import './JobCard.jsx'
-import '.ProfileSection.jsx'
+import Header from './Header';
+import data from './data';
+import JobBoard from './JobBoard';
+import JobCard from './JobCard';
+import ProfileSection from './ProfileSection';
 
-
-function App () {
-
+function App() {
+  return (
+    <div>
+      <Header />
+      <ProfileSection />
+      <JobBoard />
+    </div>
+  );
 }
 
 export default App;
